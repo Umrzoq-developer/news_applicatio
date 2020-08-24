@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed1b600-8e46-467c-be1a-d7e883c6767c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsDetail/NewsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsListItem/NewsListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsDetail/NewsDetailStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsListItem/NewsListItemStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsList/NewsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsList/NewsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsList/NewsListStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsList/NewsListStyle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPageStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPageStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/news/newsAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/news/newsAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/news/newsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/news/newsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,7 +58,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598270363359</updated>
-      <workItem from="1598270368887" duration="4072000" />
+      <workItem from="1598270368887" duration="4371000" />
+      <workItem from="1598279246684" duration="11140000" />
     </task>
     <servers />
   </component>
@@ -66,5 +71,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1598270410297" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1598291411823">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1598291411823" />
   </component>
 </project>

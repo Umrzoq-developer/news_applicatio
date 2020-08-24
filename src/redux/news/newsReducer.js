@@ -1,9 +1,10 @@
-import {BEGIN_GET_NEWS, FAIL_GET_NEWS, SUCCESS_GET_NEWS} from "./newsAction";
+import {BEGIN_GET_NEWS, FAIL_GET_NEWS, SUCCESS_GET_NEWS, GET_NEWS_BY_ID} from "./newsAction";
 
 const initialState = {
     loading: false,
     error: null,
-    news: []
+    news: [],
+    newById: [],
 };
 
 export default (state=initialState, action) => {
@@ -27,6 +28,11 @@ export default (state=initialState, action) => {
                 loading: false,
                 news: [],
                 error: true
+            };
+        case GET_NEWS_BY_ID:
+            return {
+                ...state,
+                newById: action.payload
             };
         default:
             return state
