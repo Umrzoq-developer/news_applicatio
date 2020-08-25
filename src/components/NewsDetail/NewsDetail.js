@@ -10,7 +10,6 @@ const NewsDetail = ({newById}) => {
     return(
         <CardDetail
             hoverable
-
         >
             <Title>{newById.name}</Title>
             <Text>{newById.description}</Text>

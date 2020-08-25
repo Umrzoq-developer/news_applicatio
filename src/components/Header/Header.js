@@ -31,26 +31,6 @@ const HeaderMain = () => {
                         Sports
                     </Link>
                 </Menu.Item>
-                <Menu.Item key="4">
-                    <Link to='/sport'>
-                        Sport
-                    </Link>
-                </Menu.Item>
-                <Menu.Item key="5">
-                    <Link to='/sport'>
-                        Sport
-                    </Link>
-                </Menu.Item>
-                <Menu.Item key="6">
-                    <Link to='/sport'>
-                        Sport
-                    </Link>
-                </Menu.Item>
-                <Menu.Item key="7">
-                    <Link to='/sport'>
-                        Sport
-                    </Link>
-                </Menu.Item>
             </Menu>
         </Header>
     )

@@ -5,3 +5,9 @@ export const NewsDiv = styled.div`
   margin: 0 auto;
   justify-content: space-between;
 `;
+
+export const CarouselDiv = styled.div`
+  height: 600px;
+  width: 90%;
+  margin: 0 auto;
+`;
