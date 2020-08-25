@@ -1,21 +1,22 @@
 import React from "react";
 import {connect} from 'react-redux';
-import {useHistory} from 'react-router-dom';
-import {Card, Typography} from 'antd';
-import {AboutButton} from "./NewsListItemStyle";
-import {CalendarOutlined} from '@ant-design/icons';
-import {getNewsById} from "../../redux/news/newsAction";
+import {useHistory} from "react-router-dom";
+import {Card, Typography} from "antd";
+import {CalendarOutlined} from "@ant-design/icons";
+import {AboutButton} from "../NewsListItem/NewsListItemStyle";
+
+import {getBusinessNewsById} from "../../redux/bitcoinNews/bitcoinNewsAction";
 
 const {Meta} = Card;
 const {Text} = Typography;
 
-const NewsListItem = ({source, url, author, description, publishedAt, title, urlToImage, content, getNewsById}) => {
+const BusinessNewsListItem = ({author, source, title, description, url, urlToImage, publishedAt, content, getBusinessNewsById }) => {
 
     const history = useHistory();
 
     const handleDetail = (id) => {
-        getNewsById({id: source.id, name: source.name, url, author, publishedAt, title, content, description, urlToImage});
-        history.push(`/news/${id}`)
+        getBusinessNewsById({id: source.id, name: source.name, url, author, publishedAt, title, content, description, urlToImage});
+        history.push(`/business/news/${id}`)
     };
 
     return (
@@ -35,4 +36,4 @@ const NewsListItem = ({source, url, author, description, publishedAt, title, url
 };
 
 
-export default connect(null, {getNewsById})(NewsListItem);
+export default connect(null, {getBusinessNewsById})(BusinessNewsListItem);

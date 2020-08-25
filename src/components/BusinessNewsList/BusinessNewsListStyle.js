@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {Col, Row} from "antd";
 
-export const NewsRow = styled(Row)`
+export const BusinessNewsRow = styled(Row)`
   margin-top: 5%;
 `;
 
@@ -12,7 +12,7 @@ export const NewsCol = styled(Col)`
 
 export const PaginationDiv = styled.div`
   padding: 0;
-  margin-left: 70%;
+  margin-left: 65%;
   margin-top: 2%;
   margin-bottom: 5%;
 `;

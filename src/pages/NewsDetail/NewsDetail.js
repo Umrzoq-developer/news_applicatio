@@ -7,7 +7,10 @@ import {TextAuthor, TextDate, TextName} from "../SlideNewsDetail/SlideNewsDetail
 const {Text, Title, Link} = Typography;
 
 const NewsDetail = ({newById}) => {
-    console.log(newById);
+
+    if (newById.length===0) {
+        return null;
+    }
 
     return(
         <CardDetail

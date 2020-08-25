@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import {Typography} from "antd";
+
+const {Text} = Typography;
 
 export const CarouselItem = styled.div`
   height: 500px;
@@ -6,6 +9,7 @@ export const CarouselItem = styled.div`
   padding: 3%;
   color: #ff081c;
   line-height: 160px;
+  position: relative;
   text-align: center;
   background-image: url(${props => props.urlToImg});
   background-repeat: no-repeat;
@@ -17,10 +21,10 @@ export const CarouselItem = styled.div`
   }
 `;
 
-export const CarouselTitle = styled.div`
-  width: 50%;
-  text-align: left;
-  font: bold 26px Roboto;
-  margin-bottom: 15px;
+export const CarouselTitle = styled(Text)`
+  width: 50% !important;
+  text-align: left !important;
+  font: bold 24px Roboto;
+  position: absolute;
 `;
 

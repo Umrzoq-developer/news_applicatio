@@ -44,10 +44,10 @@ const CarouselSide = ({error, slideNews, getSlideNewsById}) => {
                 return (
                     <div key={slide.source.id}>
                         <CarouselItem urlToImg={slide.urlToImage}>
-                            <CarouselTitle>
+                            <CarouselTitle mark>
                                 {slide.title}
                             </CarouselTitle>
-                            <Button style={{marginRight: '100%'}} type='primary' onClick={() => handleDetail(slide.source.id, slide)}>
+                            <Button style={{marginRight: '100%', marginTop: '15%'}} type='primary' onClick={() => handleDetail(slide.source.id, slide)}>
                                 See more
                             </Button>
                         </CarouselItem>

@@ -4,6 +4,7 @@ import storage from 'redux-persist/lib/storage';
 //reducers
 import newsReducer from "./news/newsReducer";
 import slideNewsReducer from "./slideNews/slideNewsReducer";
+import bitCoinNewsReducer from "./bitcoinNews/bitCoinNewsReducer";
 
 
 const persistConfig = {
@@ -13,7 +14,8 @@ const persistConfig = {
 
 const rootReducer = combineReducers({
     news: newsReducer,
-    slide: slideNewsReducer
+    slide: slideNewsReducer,
+    business: bitCoinNewsReducer
 });
 
 export default persistReducer(persistConfig, rootReducer);

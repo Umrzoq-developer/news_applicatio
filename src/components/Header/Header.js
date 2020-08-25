@@ -8,7 +8,7 @@ const {Header} = Layout;
 
 const HeaderMain = () => {
     return (
-        <Header style={{display: 'flex', flexDirection: 'row'}}>
+        <Header style={{display: 'flex', flexDirection: 'row', position: 'fixed', zIndex: 100, width: '100%', top: 0, boxShadow: '1px 5px 5px rgba(0, 0, 0, 0.6)'}}>
             <HeaderBrand>News Application</HeaderBrand>
             <Menu style={{width: '70%'}} theme='dark' mode="horizontal">
                 <Menu.Item key="0">
@@ -24,11 +24,6 @@ const HeaderMain = () => {
                 <Menu.Item key="2">
                     <Link to='/general'>
                         General
-                    </Link>
-                </Menu.Item>
-                <Menu.Item key="3">
-                    <Link to='/sports'>
-                        Sports
                     </Link>
                 </Menu.Item>
             </Menu>

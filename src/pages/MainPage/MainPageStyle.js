@@ -9,5 +9,5 @@ export const NewsDiv = styled.div`
 export const CarouselDiv = styled.div`
   height: 600px;
   width: 90%;
-  margin: 0 auto;
+  margin: 80px auto;
 `;

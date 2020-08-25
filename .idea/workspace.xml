@@ -5,15 +5,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apis/newsApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apis/newsApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CarouselSide/CarouselSide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselSide/CarouselSide.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CarouselSide/CarouselSideStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselSide/CarouselSideStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsDetail/NewsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsDetail/NewsDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsDetail/NewsDetailStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsDetail/NewsDetailStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsList/NewsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsList/NewsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsList/NewsListStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsList/NewsListStyle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NewsListItem/NewsListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsListItem/NewsListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsListItem/NewsListItemStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsListItem/NewsListItemStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SlideNewsDetail/SlideNewsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SlideNewsDetail/SlideNewsDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SlideNewsDetail/SlideNewsDetailStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SlideNewsDetail/SlideNewsDetailStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/news/newsAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/news/newsAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPageStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPageStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NewsDetail/NewsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsDetail/NewsDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slideNews/slideNewsAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slideNews/slideNewsAction.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <workItem from="1598270368887" duration="4371000" />
       <workItem from="1598279246684" duration="11532000" />
       <workItem from="1598332285207" duration="10872000" />
-      <workItem from="1598355933986" duration="7504000" />
+      <workItem from="1598355933986" duration="15085000" />
     </task>
     <servers />
   </component>
@@ -85,5 +85,16 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1598342858527" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/NewsList/NewsList.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
