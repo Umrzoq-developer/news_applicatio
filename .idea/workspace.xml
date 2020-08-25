@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ed1b600-8e46-467c-be1a-d7e883c6767c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsDetail/NewsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsListItem/NewsListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsDetail/NewsDetailStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsListItem/NewsListItemStyle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NewsList/NewsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsList/NewsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NewsList/NewsListStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsList/NewsListStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPageStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPageStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/news/newsAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/news/newsAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/news/newsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/news/newsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +49,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598270363359</updated>
       <workItem from="1598270368887" duration="4371000" />
-      <workItem from="1598279246684" duration="11140000" />
+      <workItem from="1598279246684" duration="11532000" />
+      <workItem from="1598332285207" duration="4307000" />
     </task>
     <servers />
   </component>
