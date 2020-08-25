@@ -3,18 +3,18 @@ import {connect} from 'react-redux';
 import {useHistory} from 'react-router-dom';
 import {Card, Typography} from 'antd';
 import {AboutButton} from "./NewsListItemStyle";
-import {FlagFilled, GlobalOutlined} from '@ant-design/icons';
+import {CalendarOutlined} from '@ant-design/icons';
 import {getNewsById} from "../../redux/news/newsAction";
 
 const {Meta} = Card;
 const {Text} = Typography;
 
-const NewsListItem = ({id, name, url, category, language, country, description, getNewsById}) => {
+const NewsListItem = ({source, url, author, description, publishedAt, title, urlToImage, content, getNewsById}) => {
 
     const history = useHistory();
 
     const handleDetail = (id) => {
-        getNewsById({id, name, url, category, language, country, description});
+        getNewsById({id: source.id, name: source.name, url, author, publishedAt, title, content, description, urlToImage});
         history.push(`/news/${id}`)
     };
 
@@ -22,14 +22,14 @@ const NewsListItem = ({id, name, url, category, language, country, description, 
         <Card
             bordered
             hoverable
+            cover={<img alt={source.id} src={urlToImage} />}
             actions={[
-                <Text key={category} mark> {category}</Text>,
-                <Text key={language} type='success'> <GlobalOutlined/> {language}</Text>,
-                <Text key={country} type='danger'> <FlagFilled/> {country}</Text>
+                <Text key={author} mark> {author}</Text>,
+                <Text key={publishedAt} type='danger'> <CalendarOutlined/> {publishedAt.slice(0, 10)}</Text>
             ]}
         >
-            <Meta style={{height: '200px'}} title={name} description={url}/>
-            <AboutButton onClick={() => handleDetail(id)} type='primary'>More...</AboutButton>
+            <Meta style={{height: '200px'}} title={source.name} description={url}/>
+            <AboutButton onClick={() => handleDetail(source.id)} type='primary'>More...</AboutButton>
         </Card>
     )
 };

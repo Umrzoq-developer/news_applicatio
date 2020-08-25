@@ -11,6 +11,10 @@ export const CarouselItem = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  
+  &:hover {
+   backdrop-filter: blur(10);
+  }
 `;
 
 export const CarouselTitle = styled.div`

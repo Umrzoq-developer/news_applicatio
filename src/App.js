@@ -6,7 +6,7 @@ import HeaderMain from "./components/Header/Header";
 
 //pages
 import MainPage from "./pages/MainPage/MainPage";
-import NewsDetail from "./components/NewsDetail/NewsDetail";
+import NewsDetail from "./pages/NewsDetail/NewsDetail";
 import SlideNewsDetail from "./pages/SlideNewsDetail/SlideNewsDetail";
 
 const App = () => {

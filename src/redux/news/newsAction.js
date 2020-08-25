@@ -11,7 +11,7 @@ export const getNews = () => async dispatch => {
     dispatch({type:BEGIN_GET_NEWS});
     try{
         const response = await axios.get(newsApi);
-        dispatch({type: SUCCESS_GET_NEWS, payload: response.data.sources})
+        dispatch({type: SUCCESS_GET_NEWS, payload: response.data.articles})
     }catch (e) {
         dispatch({type: FAIL_GET_NEWS})
     }
