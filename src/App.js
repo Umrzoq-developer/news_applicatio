@@ -11,6 +11,7 @@ import SlideNewsDetail from "./pages/SlideNewsDetail/SlideNewsDetail";
 import BusinessPage from "./pages/BusinessPage/BusinessPage";
 import GeneralPage from "./pages/GeneralPage/GeneralPage";
 import BusinessDetailPage from "./pages/BusinessDetailPage/BusinessDetailPage";
+import GeneralDetailPage from "./pages/GeneralDetailPage/GeneralDetailPage";
 
 const App = () => {
     return (
@@ -27,6 +28,7 @@ const App = () => {
                 <Route exact path='/business/news/:id' component={BusinessDetailPage} />
                 {/*GeneralPageSide*/}
                 <Route exact path='/general' component={GeneralPage} />
+                <Route exact path='/general/news/:id' component={GeneralDetailPage} />
             </Switch>
         </div>
     )

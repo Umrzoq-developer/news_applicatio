@@ -4,16 +4,10 @@
     <list default="true" id="0ed1b600-8e46-467c-be1a-d7e883c6767c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apis/newsApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apis/newsApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CarouselSide/CarouselSide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselSide/CarouselSide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CarouselSide/CarouselSideStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarouselSide/CarouselSideStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsList/NewsListStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsList/NewsListStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsListItem/NewsListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsListItem/NewsListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPageStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPageStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewsDetail/NewsDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewsDetail/NewsDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/GeneralPage/GeneralPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GeneralPage/GeneralPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/rootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slideNews/slideNewsAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slideNews/slideNewsAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/webNews/webNewsAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/webNews/webNewsAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/webNews/webNewsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/webNews/webNewsReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,8 @@
       <workItem from="1598270368887" duration="4371000" />
       <workItem from="1598279246684" duration="11532000" />
       <workItem from="1598332285207" duration="10872000" />
-      <workItem from="1598355933986" duration="15085000" />
+      <workItem from="1598355933986" duration="15150000" />
+      <workItem from="1598420669693" duration="1704000" />
     </task>
     <servers />
   </component>
@@ -91,7 +86,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/NewsList/NewsList.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

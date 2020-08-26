@@ -1,12 +1,26 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {connect} from 'react-redux';
+import {Typography} from "antd";
 
-const GeneralPage = () => {
+//action
+import {getWebNews} from "../../redux/webNews/webNewsAction";
+import GeneralList from "../../components/GeneralList/GeneralList";
+
+const {Title} = Typography;
+
+
+const GeneralPage = ({getWebNews}) => {
+
+    useEffect(() => {
+        getWebNews();
+    }, [getWebNews]);
+
     return(
-        <div>
-            GeneralPage
+        <div style={{marginTop: '100px'}} >
+            <Title style={{textAlign: 'center'}} mark>General Page</Title>
+            <GeneralList/>
         </div>
     )
 };
 
-export default connect()(GeneralPage)
+export default connect(null, {getWebNews})(GeneralPage)
